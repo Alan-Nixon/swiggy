@@ -1,0 +1,54 @@
+.login{
+    width: 350px;
+    height: 400px;
+    margin: 52%;
+    margin-top: 50px;
+    border: 1px solid;
+    border-color: black;
+    border-width: thin; 
+}
+body{
+    margin: 0;
+}
+.logo{
+    margin: auto;
+    width: auto;
+    height: 120px;
+    background-color: blue; 
+    padding-left: 20%;
+}
+.logoimage{
+    height: 110px;
+    width: 150px;
+    margin-left: 10%;
+}
+.forminsta{
+    background-color:gray;
+    width: auto;
+    height: auto;
+}
+.username{
+    width: 70%;
+    margin-left: 13%;
+    margin-top: 1%;
+    height: 35px;
+}
+.button{
+    background-color: rgba(0, 0, 255, 0.87);
+    width: 300px;
+    margin-left: 9%;
+    border-radius: 10px;
+    height: 35px;
+}
+.trans{
+    width: 400px;
+    height: 440px;
+    position: relative;
+    float: left;
+    margin-left: -120%;
+    display: flex;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 2px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}

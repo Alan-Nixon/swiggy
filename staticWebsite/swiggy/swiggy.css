@@ -1,0 +1,387 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logoIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.leftMain{
+    width: 766px;
+    height: 540px;
+    float: left;
+    background: white;
+}
+.leftMainSub1{
+    width: 620px;
+    height: 75px;
+    margin-left: 80px;
+    margin-top: 60px;
+    background-color: white;
+}
+.logoImage{
+    width: 190px;
+    height: 58px;
+    
+}
+.LogUp{
+    float: right;
+    width: 180px;
+    height: 75px;
+    background: white;
+}
+.login{
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+    margin-top: 18px;
+    text-align: center;
+    border: none;
+    line-height: 50px;
+    font-size: 14px;
+    height: 50px;
+    color: #000;
+    letter-spacing: 0.1;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    width: auto;
+}
+.login:hover{
+    color: orange;
+}
+.Signup{
+    width: 100px;
+    height: 40px;
+    background: #000;
+    float: right;
+    cursor: pointer;
+    margin-top: 17px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.Signup:hover{
+    background: orange;
+}
+.Que{
+    width: 620px;
+    height: 75px;
+    margin-left: 0px;
+    margin-top: 60px;
+    background-color: white;
+}
+.QueText{
+    float: left;
+    margin-top: -10px;
+    font-stretch: extra-expanded;
+    color: #686b78;
+}
+.hungary{
+    width: auto;
+    height: auto;
+}
+
+
+
+.deliveryLoc{
+    width: 620px;
+    height: 60px;
+    margin-left: 0px;
+    margin-top: 45px;
+    background-color: white;
+}
+.textBox{
+    float: left;
+    width: 452px;
+    height: 55px;
+    border-bottom:1px solid silver;
+    border-top:1px solid silver;
+    border-left:1px solid silver;
+    border-right:1px solid silver;
+    margin-top: 0px;
+    padding-left: 30px;
+    font-size: larger;
+}
+::placeholder{
+    font-size: large;
+
+}
+.textBox:focus{
+    outline: none !important;
+    border:1px solid #fc8019;
+}
+.findFood{
+    float: right;
+    margin-right: 2px;
+    padding-top: 15px;
+    width: 132px;
+    height: 60px;
+    padding: 0%;
+    background-color: orange;
+    border: none;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.findFood:hover{
+    background-color: #000;
+}
+
+
+
+.about{
+    width: 620px;
+    height: 75px;
+    margin-left: 0px;
+    margin-top: 45px;
+    background-color: white;
+}
+.HeadingPopular{
+    color: gray;
+}
+.places{
+    color: gray;
+}
+
+.rightImage{
+    width: 585px;
+    height: 540px;
+    float: right;
+}
+
+
+
+
+
+.orderDetials{
+    width: 1351px;
+    height: 400px;
+    float: left;
+    background-color: #2b1e16;
+}
+
+ .Image1{
+    width: 450px;
+    height: 400px;
+    float: left;
+}
+
+.Image2{
+    width: 450px;
+    height: 400px;
+    background-color: #2b1e16;
+    float: right;
+}
+.Image3{
+    width: 450px;
+    height: 400px;
+    background-color: #2b1e16;
+    float: right;
+} 
+.textOn{
+    color: #fff;
+    margin-left: 100px;
+}
+.textOff{
+    color: #fff;
+    margin-left: 80px;
+}
+.Download{
+    width: 1351px;
+    height: 550px;
+    background: white;
+    float: left;
+}
+
+.PlayApp{
+    float: left;
+    width: 600px;
+    height: 100%;
+    background: white;
+}
+.PhonePic{
+    float: left;
+    width: 750px;
+    height: 100%;
+    background: white;
+}
+.imageNo1{
+    margin-left: -15px;
+    width: 400px;
+    height: 480px;
+}
+.imageNo2{
+    float: right;
+    margin-top: -410px;
+    width: 400px;
+    height: 480px;
+}
+.textContent{
+    font-size: large;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+.PlayStore{
+    margin-left: 70px;
+    cursor: pointer;
+    width: 150px;
+}
+.AppStore{
+    margin-left: 15px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.order{
+    color: #7e808c;
+}
+
+
+.footerDiv{
+    float: left;
+    width: 1350px;
+    height: 500px;
+    background: #000000;
+}
+
+H4{
+    color: gray;
+    margin-left: 70px;
+    margin-top: 70px;
+
+}
+.links{
+    color: white;
+    margin-left: 15px;
+    margin-top: -16px;
+    padding-top: 0px;
+    text-decoration: none;
+}
+.links:hover{
+    font-weight: bold;
+    transform: scale(1.0);
+}
+.company{
+   width: 337px;
+   height: 500px;
+   float: left;
+}
+.contact{
+    width: 337px;
+    height: 500px;
+    float: left;
+}
+.Legal{
+    width: 350px;
+    height: 500px;
+    background: black;
+    float: left;
+}
+.logoss{
+    width: auto;
+    height: auto;
+    float: left;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.logoss:hover{
+    cursor: pointer;
+    
+}
+.lines{
+    background-color: white;
+    height: 0.5px;
+    border: none;
+    opacity: 0.5;
+}
+.lineClass{
+    width: 1220px;
+    height: 20px;
+    float: left;
+    margin-left: 70px;
+    margin-top: -20px;
+    background: black;
+}
+.lastFooter{
+    width: 1350px;
+    height: 80px;
+    float: left;
+    background: #000;
+}
+.LastLogo{
+    margin-left: 70px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+.copyright{
+    float: top;
+    margin-left: 450px;
+    margin-top: -40px;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+}
+.socialmedia{
+    float: right;
+    margin-right: 40px;
+    margin-top: -30px;
+    width: 250px;
+    height: 50px;
+    background: black;
+}
+.facebook{
+    width: 30px;
+    cursor: pointer;
+}
+.facebook:hover{
+    transform: scale(1.1);
+}
+.pintrest{
+    padding-left: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+.pintrest:hover{
+    transform: scale(1.1);
+}
+.instagram{
+    padding-left: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+.instagram:hover{
+    transform: scale(1.1);
+}
+.twiter{
+    padding-left: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+.twiter:hover{
+    transform: scale(1.1);
+}
+.locateMe{
+    float: left;
+    margin-left: -80px;
+    margin-top: 20px;
+    color: gray;
+    cursor: pointer;
+}
+.AppStoreIcon:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.PlayStoreIcon{
+    margin-top: 30px;
+}
+.PlayStoreIcon:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}

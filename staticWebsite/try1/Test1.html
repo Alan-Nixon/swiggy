@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
     <title>Document</title>
 </head>
+
 <body>
-        <img src="https://www.instagram.com/images/instagram/xig/homepage/screenshots/screenshot1.png?__d=www" class="imageAttribute" alt="" srcset="">
-
-
+    <h1><span id="h1Id">Hello world</span></h1>
 </body>
+<script>
+    (function (){
+
+        var words=["Hungry ?","Unexpected guests ?",
+            "late night at office ?","cooking gone wrong ? ",
+            "movie marathon ?","game night ?"],
+        i=0
+        setInterval(function(){
+            $('#h1Id').fadeOut(function(){
+                $(this).html(words[(i=(i+1)%words.length)]).fadeIn();
+            });
+        },2000);
+    })()
+    
+</script>
+
 </html>

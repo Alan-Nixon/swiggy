@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="swiggy.css">
-    <link class="logoIcon" rel = "icon" href = 
-    "https://cdn.iconscout.com/icon/free/png-512/free-swiggy-1613371-1369418.png?f=avif&w=256" 
-            type = "image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link class="logoIcon" rel="icon"
+        href="https://cdn.iconscout.com/icon/free/png-512/free-swiggy-1613371-1369418.png?f=avif&w=256"
+        type="image/x-icon">
     <title>Order food online from India's best food delivery service. Order from restaurants near you</title>
 </head>
 
@@ -25,14 +27,13 @@
                 </div>
 
                 <div class="Que">
-                    <h1 class="hungary">Hungry ? </h1>
+                    <h1 id="switch">Hungry ? </h1>
                     <h3 class="QueText">Order food from favriote restaurant near you</h3>
                 </div>
 
                 <div class="deliveryLoc">
-                    <input type="text" class="textBox" placeholder="Enter your delivery location "><img
-                        src="https://drive.google.com/file/d/19pE0RYmx0r0pAmzdo6p6oGR8IuWqNlIP/view?usp=drive_link"
-                        class="locateMe" alt="">
+                    <input type="text" class="textBox" placeholder="Enter your delivery location ">
+                    <div class="locateMeDiv"><button class="buttonLocate">Locate Me <i class="fa fa-crosshairs iconClass"></i></button></div>
                     <button class="findFood">FIND FOOD</button>
                 </div>
                 <div class="about">
@@ -133,8 +134,10 @@
                 <ul class="links"><a class="links" href="">Cookie Policy</a><br><br></ul>
                 <ul class="links"><a class="links" href="">Offer Terms</a><br><br></ul>
                 <ul class="links"><a class="links" href="">Phishing & Fraud</a><br><br></ul>
-                <ul class="links"><a class="links" href="">Corporate – Swiggy Money Codes Terms <br>&nbsp;&nbsp;&nbsp; and Conditions</a></ul><br>
-                <ul class="links"><a class="links" href="">Corporate - Swiggy Discount Voucher &nbsp;&nbsp;&nbsp;&nbsp;Terms and Conditions</a></ul>
+                <ul class="links"><a class="links" href="">Corporate – Swiggy Money Codes Terms <br>&nbsp;&nbsp;&nbsp;
+                        and Conditions</a></ul><br>
+                <ul class="links"><a class="links" href="">Corporate - Swiggy Discount Voucher
+                        &nbsp;&nbsp;&nbsp;&nbsp;Terms and Conditions</a></ul>
             </div>
 
             <div class="AppAndPlay">
@@ -173,7 +176,36 @@
 
 </html>
 
+<script>
+    (
+        function () {
+            var words = ["Hungry ?", "Unexpected guests ?",
+                "Late night at office ?", "Cooking gone wrong ? ",
+                "Movie marathon ?", "Game night ?"],
+                i = 0;
+            setInterval(() => {
+                $('#switch').fadeOut(function () {
+                    $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+                });
+            }, 4300);
+        }
+    )()
+</script>
+
+<!-- 
+
+
+hungry 
+unexpected guests
+late night at office
+cooking gone wrong ? 
+movie marathon ?
+game night ?
+
+
+
 image on right
+
 https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq
 
 2 https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy
@@ -203,4 +235,4 @@ instagram
 https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-instagram_b7nubh
 
 twitter
-https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-twitter_gtq8dv
+https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-twitter_gtq8dv -->
